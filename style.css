@@ -1,0 +1,30 @@
+.division {
+    background-color: #b0b8ce;
+    margin-left: 100;
+    margin-top: 25;
+    margin-bottom: 25;
+    border-radius: 25px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#body {
+    background-color: #eaebfe;
+}
+
+.text {
+    font-family: 'Lora', serif;
+}
+
+#start_button {
+    background-color: #eaebfe;
+    border-radius: 25px;
+}
+
+.image {
+    width: 500px;
+    height: 100px;
+}

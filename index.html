@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body id="body">
+      <center>
+
+        <div class="division col-lg-11 col-md-11 col-sm-11 col-xs-12">
+          <h1 class="text">Sound Controlled Animals</h1>
+          <br>
+          <p class="text">Play the sounds of different animals. The model has been trained with the sounds of a dog, cat, bird, and lion.</p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="division col-lg-11 col-md-11 col-sm-11 col-xs-12">
+          <br>
+          <button class="text" onclick="start()" id="start_button">Start</button>
+          <br>
+          <br>
+          <label class="text" id="sound">Sound identified:</label>
+          <br>
+          <label class="text" id="accuracy">Accuracy:</label>
+        </div>
+
+        <div class="division col-lg-11 col-md-11 col-sm-11 col-xs-12">
+          <img src="sound-off-music-mute-off-sound-speaker-volume-icon-16.png" id="img">
+        </div>
+
+        <div class="division col-lg-11 col-md-11 col-sm-11 col-xs-12">
+          <h4 class="text">Made by Anya Ray</h4>
+        </div>
+
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
